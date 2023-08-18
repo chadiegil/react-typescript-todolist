@@ -1,0 +1,59 @@
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  flex: 30%;
+  background-color: rgb(187, 195, 201);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .inputContainer {
+  display: flex;
+  flex-direction: row;
+}
+.header input {
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+}
+.header button {
+  width: 70px;
+  border: none;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.header button:hover {
+  background-color: blue;
+  color: white;
+}
+.todoList ul li {
+  border-radius: 5px;
+}
+.todoList ul {
+  padding: 10px;
+  list-style: none;
+}
+.todoList ul li {
+  padding: 10px;
+  margin: 10px;
+  background-color: gray;
+  color: whitesmoke;
+}
+.todoList ul li:hover {
+  background-color: rgb(117, 114, 114);
+
+  color: rgb(247, 240, 240);
+}
